@@ -20,7 +20,7 @@ public class AsyncServiceImpl implements AsyncService {
 
     @Override
     public Callable<Boolean> checkIfPrincipalPropagated() {
-        Object before = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        final Object before = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         log.info("Before new thread: " + before);
 
         return new Callable<Boolean>() {

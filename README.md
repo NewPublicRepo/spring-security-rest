@@ -14,3 +14,7 @@ The "Learn Spring Security" Classes: http://github.learnspringsecurity.com
 - [An Intro to Spring HATEOAS](http://www.baeldung.com/spring-hateoas-tutorial)
 - [Spring Security Context Propagation with @Async](http://www.baeldung.com/spring-security-async-principal-propagation)
 - [Servlet 3 Async Support with Spring MVC and Spring Security](http://www.baeldung.com/spring-mvc-async-security)
+
+test links:
+http://localhost:8080/spring-security-rest/api/customers/10A
+http://localhost:8080/spring-security-rest/api/customers/10A/orders
